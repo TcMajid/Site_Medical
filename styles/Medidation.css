@@ -1,0 +1,18 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(../assests/polices/JosefinSans.ttf);
+}
+@font-face {
+    font-family: Jura;
+    src: url(../assests/polices/Jura.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../assests/polices/Inter.ttf);
+}
+.Select_Meditation{
+    background-color: rgb(255, 255, 255,0.6);
+    a{
+        background-color: rgb(255, 255, 255,0);
+    }
+}

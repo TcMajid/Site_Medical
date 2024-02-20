@@ -1,0 +1,52 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(../assests/polices/JosefinSans.ttf);
+}
+@font-face {
+    font-family: Jura;
+    src: url(../assests/polices/Jura.ttf);
+}
+@font-face {
+    font-family: Inter;
+    src: url(../assests/polices/Inter.ttf);
+}
+
+.Select_Corps{
+    background-color: rgb(255, 255, 255, 0.6);
+    a{
+        background-color: rgb(255, 255, 255, 0);
+    }
+}
+.Mesure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Mesure1,
+.Mesure2,
+.Mesure3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+    width: 30%;
+    margin: 2%;
+    text-align: left;
+    vertical-align: bottom;
+}
+#taille{
+    background-color: rgb(255, 255, 255, 0);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 50px;
+    width: 50%;
+    outline: none;
+    margin-bottom: 2%;
+    font-family: Inter;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 15px;
+
+}
